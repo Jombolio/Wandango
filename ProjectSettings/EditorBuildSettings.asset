@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/CHS-FLOOR1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/CHS-TEST.unity
+    guid: b743b6864def4ce40bc3ef035e90dc3d
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 4a4a0b3a85a091c4fa6e99a4aaea1994
   m_configObjects: {}

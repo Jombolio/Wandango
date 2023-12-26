@@ -10,6 +10,9 @@ public class MainMenuScript : MonoBehaviour
 
     public Canvas OptionsCanvas;
     public AudioSource MenuMusic;
+    public Scene MainMenu_Scene;
+    public Scene TEST_Scene;
+    public Scene CHS_FLOOR1_Scene;
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +20,7 @@ public class MainMenuScript : MonoBehaviour
         OptionsCanvas.enabled = false;
         MenuMusic.loop = true;
         MenuMusic.Play();
+        Time.timeScale = 1;
 
     }
 
@@ -28,7 +32,7 @@ public class MainMenuScript : MonoBehaviour
 
     public void startButton()
     {
-        SceneManager.LoadScene("game_Level1");
+        SceneManager.LoadScene("CHS-TEST");
     }
 
     public void optionsButton()

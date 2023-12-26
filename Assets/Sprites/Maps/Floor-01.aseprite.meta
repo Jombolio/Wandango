@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ee9cb5fcb5d75de46b6925b4637db9aa
+guid: efe7ecb30f93a87498c44b2baaa58744
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,58 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Skeleton-Attacking_Frame_0
+  - name: Floor-01
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 38
-      y: 4
-      width: 22
-      height: 31
-    spriteID: f91255ec4fd5a864a9a2377a7d926cd5
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 38, y: 4}
-  - name: Skeleton-Attacking_Frame_1
-    originalName: 
-    pivot: {x: 0.42105263, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 38
-      y: 43
-      width: 19
-      height: 31
-    spriteID: 96b6b4a3f3e9fdd478df0e5cd074d131
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 38, y: 43}
-  - name: Skeleton-Attacking_Frame_2
-    originalName: 
-    pivot: {x: 0.5769231, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
       x: 4
       y: 4
-      width: 26
-      height: 31
-    spriteID: 2f8e8d5555c6be6488015fc3d0df3abd
+      width: 160
+      height: 90
+    spriteID: f916d42ebce1b3d47b712e944a6249e7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -179,98 +139,26 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Skeleton-Attacking_Frame_3
-    originalName: 
-    pivot: {x: 0.5769231, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 43
-      width: 26
-      height: 31
-    spriteID: acea9cd5b8b7bfb48b23d181703d9315
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 43}
-  - name: Skeleton-Attacking_Frame_4
-    originalName: 
-    pivot: {x: 0.5416667, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 82
-      width: 24
-      height: 31
-    spriteID: 27130cd0bb108c644ac69986b1cdb57e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 82}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1496832948
-    name: Skeleton-Attacking
+    guid: -2129269744
+    name: Floor-01
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Skeleton-Attacking_Frame_0
+    - name: Floor-01
       frameIndex: 0
       cellRect:
-        x: 5
+        x: 0
         y: 0
-        width: 22
-        height: 31
-      spriteId: f91255ec4fd5a864a9a2377a7d926cd5
-    - name: Skeleton-Attacking_Frame_1
-      frameIndex: 1
-      cellRect:
-        x: 8
-        y: 0
-        width: 19
-        height: 31
-      spriteId: 96b6b4a3f3e9fdd478df0e5cd074d131
-    - name: Skeleton-Attacking_Frame_2
-      frameIndex: 2
-      cellRect:
-        x: 1
-        y: 0
-        width: 26
-        height: 31
-      spriteId: 2f8e8d5555c6be6488015fc3d0df3abd
-    - name: Skeleton-Attacking_Frame_3
-      frameIndex: 3
-      cellRect:
-        x: 1
-        y: 0
-        width: 26
-        height: 31
-      spriteId: acea9cd5b8b7bfb48b23d181703d9315
-    - name: Skeleton-Attacking_Frame_4
-      frameIndex: 4
-      cellRect:
-        x: 3
-        y: 0
-        width: 24
-        height: 31
-      spriteId: 27130cd0bb108c644ac69986b1cdb57e
+        width: 160
+        height: 90
+      spriteId: f916d42ebce1b3d47b712e944a6249e7
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 32, y: 32}
+  canvasSize: {x: 160, y: 90}
