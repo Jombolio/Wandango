@@ -1068,8 +1068,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74c1a95e72490ef4cab6c840f3f34c5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dashSpeed: 30
-  dashDuration: 0.1
+  dashSpeed: 20
+  dashDuration: 0.2
   dashCooldown: 3
 --- !u!4 &1592401937 stripped
 Transform:
