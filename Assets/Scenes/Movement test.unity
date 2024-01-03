@@ -1595,7 +1595,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1301002545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1795,8 +1795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  pauseMenu: {fileID: 1301002547}
-  PauseMenuBehaviour: {fileID: 0}
+  PauseMenuBehaviour: {fileID: 1301002544}
 --- !u!50 &1592401935
 Rigidbody2D:
   serializedVersion: 4
