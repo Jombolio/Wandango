@@ -4,16 +4,19 @@ using UnityEngine;
 
 public class PlayerDash : MonoBehaviour
 {
+    //Public Defined
     public float dashSpeed = 20f; // INPUT_REQUIRED {specify dash speed value}
     public float dashDuration = 0.2f; // INPUT_REQUIRED {specify dash duration value}
     public float dashCooldown = 10f; // INPUT_REQUIRED {specify dash cooldown value}
 
+    //Private Defined
     private PlayerMovement playerMovement;
     private Rigidbody2D rb;
     private bool isDashing = false;
     private float dashTimer;
     private float cooldownTimer;
 
+    //Calls at the start of being loaded on frame 1
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -21,6 +24,7 @@ public class PlayerDash : MonoBehaviour
         cooldownTimer = dashCooldown;
     }
 
+    //Calls every frame change
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && cooldownTimer >= dashCooldown && !isDashing)
